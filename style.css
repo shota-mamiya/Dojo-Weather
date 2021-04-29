@@ -1,0 +1,123 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+.Heading{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(141, 178, 247);
+    color: white;
+    font-size: 25px;
+    height: 100px;
+    align-items: center;
+}
+.Heading h1{
+    margin-left: 150px;
+    margin-right: 100px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    padding-inline-start: 0px;
+    margin-right: 150px;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.bodyHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right:100px;
+    font-size: 21px;
+}
+
+select{
+    width: 70px;
+    height: 30px;
+    font-size: 13pt;
+}
+
+hr{
+    height: 3px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.mainBody{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherWeek{
+    display: flex;
+}
+.dailyWeather{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    align-items: center;
+    margin: 15px;
+    font-size: 20px;
+    padding: 22px;
+}
+.dailyWeather img{
+    border-radius: 50%;
+}
+.tempHighLow{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+.highTemp{
+    margin-right: 10px;
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+}
+
+.lowTemp{
+    margin-left: 10px;
+    font-size: 35px;
+    color: blue;
+    font-weight: bold;
+}
+
+.cookieBanner{
+    display: flex;
+    background-color: lightgrey;
+    border:5px solid black;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+    position: fixed;
+    justify-content: space-evenly;
+    font-size: 14pt;
+    width: 750px;
+    bottom: 400px;
+}
+
+.cookieAccept{
+    width: 140px;
+    height: 35px;
+    font-size: 18pt;
+    background-color: rgb(141, 178, 247);
+    border: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.cookieBanner img{
+    margin-right: 20px;
+}
